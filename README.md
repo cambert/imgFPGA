@@ -1,29 +1,25 @@
 # imgFPGA
 
-Welcome to the main development repository for `Image and Video Proceessing FPGA-based Development Platform`. 
+Welcome to the development repository for `Image and Video Processing FPGA-based Development Platform`. 
 
-
-The principle is to provide students / researchers with an open environment allowing them to concentrate on image / video processing algorithms when targeting  them for FPGA deveices. The aim is to:
-- reduce the time required for system bring-up; 
-- provide set of tools and system components to allow various tasks, such as loading images to FPGA and off-loading post processing data;
+The principle is to provide students/researchers with an open HW/SW environment allowing image/video processing algorithms development when targeting FPGA devices. The aim is to:
+- minimize the time required for system bring-up; 
 - unify platforms between researchers to allow easier benchmarking when comparing various algorithms;
-
-The provided _envoronemnt_ shall invlude:
-- basic set of files to allow project creasion for selected [fpga development boards](http://www.altera.co.uk/education/univ/materials/boards/de1-soc/unv-de1-soc-board.html);
-- RTL code for various communication interfaces, e.g. UART, PS2, etc.;
-- RTL controller for selected camera modules;
-- TestBench to allow RTL testing and verification;
-- Python scripts for various house-keeping and verification tasks, such as image file conversion to bitstream format suitable for convenient PC -> FPGA transfer for algorithm verification;
+- provide set of scripts to ease RTL testing and verification at higher abstraction level, e.g. feeding TB with jpg/png file, with output data also being converted to graphics format;
+- provide set of system components and interfaces to enable PC <=> FPGA communication in order to transfer test vectors and off-load results for post processing analysis;
 
 
-
+The provided _envoronemnt_ shall include:
+- basic set of files to allow project creation for selected FPGA development boards, e.g. [DE1-SoC](http://www.altera.co.uk/education/univ/materials/boards/de1-soc/unv-de1-soc-board.html);
+- RTL controller for selected camera modules, e.g. [C3188A](https://www.quasarelectronics.co.uk/Item/c3188a-digital-output-cmos-colour-camera-module-omnivision-ov7620);
+- RTL code for various communication and control interfaces, e.g. UART, Ethernet, I2C, PS2, etc.;
+- Top-level testbench (TB) to allow system testing and verification;
+- Multiple test programs to verify system components as well as custom RTL;
+- Python scripts for various house-keeping and verification tasks, such as image file to bitstream conversion;
+- Comprehensive documentation to allow further maintainance;
 
 For further documentation please see [wiki pages](https://github.com/imgFPGA/imgFPGA/wiki).
 
-
 ### Useful links
 
-[How to Latex in the cloud](https://www.sharelatex.com/)
-[How do formatting in README](https://help.github.com/articles/markdown-basics/)
-
-
+[How to Latex in the cloud](https://www.sharelatex.com/) | [How do formatting in README](https://help.github.com/articles/markdown-basics/) | [The inspiration - NetFPGA](https://github.com/NetFPGA/)
