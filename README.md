@@ -1,8 +1,10 @@
+![imgFPGA](https://raw.github.com/imgFPGA/imgFPGA_logo.png "imgFPGA")
+
 # imgFPGA
 
-Welcome to the development repository for `Image and Video Processing FPGA-based Development Platform`. 
+Welcome to the development repository for **Image and Video Processing FPGA-based Development Platform**. 
 
-The principle is to provide students/researchers with an open HW/SW environment allowing image/video processing algorithms development when targeting FPGA devices. The aim is to:
+The principle is to provide students/researchers with an open HW/SW environment and platform allowing image/video processing algorithms development when targeting FPGA devices. The aim is to:
 - minimize the time required for system bring-up; 
 - unify platforms between researchers to allow easier benchmarking when comparing various algorithms;
 - provide set of scripts to ease RTL testing and verification at higher abstraction level, e.g. feeding TB with jpg/png file, with output data also being converted to graphics format;
