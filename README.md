@@ -1,6 +1,5 @@
-![imgFPGA](https://raw.github.com/imgFPGA/imgFPGA_logo.png "imgFPGA")
+<img src="https://cloud.githubusercontent.com/assets/11151121/6693644/656b4722-cccc-11e4-9581-82554ab09585.png" align="left" height="100" >
 
-# imgFPGA
 
 Welcome to the development repository for **Image and Video Processing FPGA-based Development Platform**. 
 
