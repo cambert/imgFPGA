@@ -17,7 +17,7 @@ The provided _environment_ shall include:
 - Top-level testbench (TB) to allow system testing and verification;
 - Multiple test programs to verify system components as well as custom RTL;
 - Python scripts for various house-keeping and verification tasks, such as image file to bitstream conversion;
-- Comprehensive documentation to allow further maintainance;
+- Comprehensive documentation to allow further maintenance;
 
 For further documentation please see [wiki pages](https://github.com/imgFPGA/imgFPGA/wiki).
 
