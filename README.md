@@ -10,7 +10,7 @@ The principle is to provide students/researchers with an open HW/SW environment 
 - provide set of system components and interfaces to enable PC <=> FPGA communication in order to transfer test vectors and off-load results for post processing analysis;
 
 
-The provided _envoronemnt_ shall include:
+The provided _environment_ shall include:
 - basic set of files to allow project creation for selected FPGA development boards, e.g. [DE1-SoC](http://www.altera.co.uk/education/univ/materials/boards/de1-soc/unv-de1-soc-board.html);
 - RTL controller for selected camera modules, e.g. [C3188A](https://www.quasarelectronics.co.uk/Item/c3188a-digital-output-cmos-colour-camera-module-omnivision-ov7620);
 - RTL code for various communication and control interfaces, e.g. UART, Ethernet, I2C, PS2, etc.;
