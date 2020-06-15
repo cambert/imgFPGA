@@ -19,8 +19,6 @@ The provided _environment_ shall include:
 - Python scripts for various house-keeping and verification tasks, such as image file to bitstream conversion;
 - Comprehensive documentation to allow further maintenance;
 
-For further documentation please see [wiki pages](https://github.com/imgFPGA/imgFPGA/wiki).
-
 ### Useful links
 
-[How to Latex in the cloud](https://www.sharelatex.com/) | [How do formatting in README](https://help.github.com/articles/markdown-basics/) | [The inspiration - NetFPGA](https://github.com/NetFPGA/)
+[How do formatting in README](https://help.github.com/articles/markdown-basics/) 
